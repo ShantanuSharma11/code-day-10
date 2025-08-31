@@ -93,6 +93,7 @@ body {
 /* about */
 .about {
   height: 564px;
+  /* overflow:hidden; */
 }
 
 .about button {
@@ -605,25 +606,49 @@ body {
   .font p {
     font-size: 16px;
   }
+.about,
+.aboutimg,
+.servicescontent,
+.serviceslast {
+  height: auto !important; /* Allow flexible height */
+  min-height: unset;       /* Prevent forced height */
+}
 
-  /* About Section */
-  .about .row {
+/* For mobile screens */
+@media (max-width: 768px) {
+  .about,
+  .aboutimg,
+  .servicescontent,
+  .serviceslast {
+    height: auto !important;
+    width: 100% !important;
+  }
+
+  .aboutmain
+  {
+    display: flex;
     flex-direction: column;
-    text-align: center;
-    justify-content: center;
   }
-  
-   .aboutimg {
-    
-    width:413px;
-    height:316px;
-    justify-content: center;
-    
-    height: 100%;
-
-
+  /* Prevent overlap of service images */
+  .servicesimg,
+  .img3 img {
+    position: static !important;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
   }
 
+  /* Prevent overlap of about image */
+  .aboutimg {
+    height: 316px!important;
+    max-width: 100%;
+   
+  }
+}
+.aboutcontent
+{
+  text-align: center;
+}
 
   .aboutcontent h1 {
     font-size: 28px;
