@@ -148,9 +148,10 @@ body {
 
 .img3 img {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right:0;
+  bottom:0;
   width: 50%;
+  height:455px;
 
 }
 
@@ -213,13 +214,34 @@ body {
   padding: 30px;
 }
 
-.left {
-  border-radius: 80px;
-  width: 40px;
-  height: 40px;
+.left img {
+  
   color: #00373E;
-  background-color: #FFFFFF;
-  border: none;
+ 
+  border:none;
+
+}
+.left
+{
+  border-radius: 80px;
+  border:none;
+   height:40px;
+  width:40px;
+  
+}
+
+.right img {
+  
+  color: #00373E;
+  
+
+}
+
+.right
+{
+  border-radius: 80px;
+  height:35px;
+  width:35px;
 }
 
 .right {
@@ -257,7 +279,7 @@ body {
   right: 0;
   bottom: 0;
   height: 443px;
-  width: 25%;
+  width: 50%;
 }
 
 
@@ -378,7 +400,7 @@ body {
 .contact-form form {
   background-color: #fdf7f2;
   flex: 1;
-  padding: 25px;
+  padding: 15px;
   border-radius: 12px;
 }
 
@@ -392,7 +414,7 @@ body {
   width: 100%;
   border: none;
   border-bottom: 1px solid #666;
-  padding: 10px;
+  padding: 5px;
   margin-bottom: 20px;
   background: transparent;
   font-size: 15px;
