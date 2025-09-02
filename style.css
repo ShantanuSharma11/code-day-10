@@ -344,24 +344,6 @@ background-color: #EFC01D;
     height: 54px;
     color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .faqright {
   flex: 1;
   display: flex;
@@ -381,8 +363,6 @@ background-color: #EFC01D;
   position: absolute;
   left:0;
   bottom:0;
-
-
 }
 
 .faq-item {
@@ -711,15 +691,11 @@ background-color: #EFC01D;
     /* display: none; */
     
   }
-  
-
   .services .row {
     flex-direction: column;
     align-items: center;
   }
   
-
-
   .servicescontent,
   .serviceslast {
     width: 100% !important;
@@ -727,7 +703,6 @@ background-color: #EFC01D;
     padding: 20px;
     margin-bottom: 20px;
   }
-
   .servicesimg img,
   .img3 img {
     position: static;
